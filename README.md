@@ -37,10 +37,20 @@ Currently, you should be able to:
 To update any cloud functions:
 
 make sure you have `firebase-tools` installed globally. If not, `sudo npm install -g firebase-tools`
+
 `firebase login` -> to login to your firebase google account 
+
 `firebase init` -> to create your own firestore instance of this project
+
 `firebase deploy --only functions` to deploy only `functions/index.js` which is where the logic for all cloud functions live. 
+
 `firebase deploy` to deploy whole project.
 
 Tutorial Reference I used: https://www.youtube.com/watch?v=Oi4v5uxTY5o&list=PL4cUxeGkcC9iWstfXntcj8f-dFZ4UtlN3
+
+Future Wishlist:
+
+1) Add scss support, mobile styling
+2) Implement add comment functionality (adding comments to a collection in firebase, make them associated with each other...)
+3) Try porting over project to React-Native-Web
 
